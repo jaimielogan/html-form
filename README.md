@@ -76,6 +76,7 @@ Inside the form in `index.html` add some fields:
 Extra:
 
 - add optgroups with labels to group options
+
 ## Challenge #5
 
 In `example_05.html`, make a form that looks like this:
