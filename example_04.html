@@ -1,4 +1,4 @@
-<!doctype>
+<!doctype html>
 <html>
   <head>
     <title>HTML Forms</title>
@@ -18,6 +18,41 @@
     <h1>Form Fields: Example 4</h1>
 
     <form action="" method="get">
+      <select name = "select">
+          <option value="op1" default>Option1</option>
+          <option value="op2">Option2</option>
+          <option value="op3">Option3</option>
+      </select>
+
+      <select name = "color">
+          <option>Blue</option>
+          <option>Green</option>
+          <option>Red</option>
+      </select>
+
+      <select name = "size">
+          <option value = "">Small</option>
+          <option value = "">Medium</option>
+          <option value = "">Large</option>
+      </select>
+
+      <select name = "food">
+        <optgroup label = "breakfast">
+          <option value="eggs">Eggs</option>
+          <option value="bacon">Bacon</option>
+          <option value="yogurt">Yogurt</option>
+        </optgroup>
+        <optgroup label = "lunch">
+          <option value="sandwich">Sandwich</option>
+          <option value="salad">Salad</option>
+        </optgroup>
+        <optgroup label = "dinner">
+          <option value="steak">Steak</option>
+          <option value="chicken">Chicken</option>
+          <option value="salmon">Salmon</option>
+        </optgroup>
+      </select>
+      <input type = "submit">
     </form>
 
     <div class="query-params">
